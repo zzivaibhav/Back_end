@@ -31,6 +31,7 @@ const connect = async()=>{
 
 
 
+
 //API to Register a user
 app.post('/register', async (req, res) => {
     try {
