@@ -242,6 +242,6 @@ app.get('/navigateToProduct/:id', async (req, res) => {
   });
   
   app.listen(9000,()=>{
-    console.log("Server running on the 9000")
+    console.log("Server running on the : 9000")
   })
 
