@@ -9,7 +9,6 @@ import { Category } from "./model/Category.js"
 import {Carousal} from "./model/Carousal.js"
 import jwt from "jsonwebtoken"
 const app= express()
-
 app.use(cors({
     origin:"*",
     credentials : true
